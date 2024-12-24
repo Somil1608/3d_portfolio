@@ -149,8 +149,8 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  webpage,
+  sfs,
   threejs,
 } from "../assets";
 
@@ -348,7 +348,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Web Page portfolio",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -365,7 +365,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: webpage,
     source_code_link: "https://github.com/",
   },
   {
@@ -386,7 +386,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: sfs,
     source_code_link: "https://github.com/",
   },
 ];

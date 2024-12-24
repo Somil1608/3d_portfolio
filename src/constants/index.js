@@ -20,8 +20,8 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  webpage,
+  sfs,
   threejs,
 } from "../assets";
 
@@ -155,8 +155,8 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Backend Developer",
+    company_name: "Ivy - Comptech",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -219,7 +219,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Web Page Portfolio",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -236,16 +236,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: webpage,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Smart Farming Stick",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Smart Farming Stick assists farmers by providing information to calculate and mitigate risks beforehand. Automated solutions and data-driven insights enhance efficiency and revenue generation.",
     tags: [
       {
-        name: "nextjs",
+        name: "Azure",
         color: "blue-text-gradient",
       },
       {
@@ -257,7 +257,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: sfs,
     source_code_link: "https://github.com/",
   },
 ];
