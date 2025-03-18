@@ -23,9 +23,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/ivy-logo.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/elogo.png";
+import shopify from "./company/entainlogo.jpeg";
+import starbucks from "./company/elogo.png";
+import tesla from "./company/sf_logo.jpeg";
 
 import carrent from "./carrent.png";
 import webpage from "./webpage.png";

@@ -115,57 +115,61 @@ const technologies = [
   },
 ];
 
+
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+  title: "Software Engineer",
+  company_name: "ENTAIN | Ivy Comptech",
+  icon: starbucks, // Replace with Ivy logo if available
+  iconBg: "#fff",
+  date: "Sep 2023 - Present",
+  points: [
+    "Core member of the Compliance team, focusing on software development and integration.",
+    "Led migration projects by writing PL/SQL scripts to migrate users from various platforms.",
+    "Developed Java and SQL scripts for the White Labelling project, supporting compliance operations.",
+    "Worked on compliance-related developments, including Cron job scheduling for automated tasks and sending reports to regulators via SFTP.",
+    "Created safe reporting tools using Java and PL/SQL for regulatory transaction reporting.",
+    "Tools Used: JIRA, IntelliJ/Eclipse, ServiceNow (SNOW), Oracle SQL Developer, GitLab, MobaXterm, PuTTY, WinSCP, Kleopatra.",
+  ],
+},
+{
+  title: "Software Engineering Trainee",
+  company_name: "Ivy Comptech",
+  icon: meta, // Replace with Ivy logo if available
+  iconBg: "#fff",
+  date: "Sep 2022 - Sep 2023",
+  points: [
+    "Gained foundational experience in software development within the Compliance team.",
+    "Assisted in writing migration scripts and participated in various development tasks.",
+    "Developed skills in Java, SQL, and PL/SQL, and worked on practical applications in a regulatory context.",
+    "Tools Used: JIRA, IntelliJ/Eclipse, ServiceNow (SNOW), Oracle SQL Developer, GitLab, MobaXterm, PuTTY, WinSCP, Kleopatra.",
+  ],
+},
+  {
+   
+    title: "Computer Vision Intern",
+    company_name: "The Sparks Foundation",
+    icon: tesla, // You can use a relevant icon like OCR/AI/computer vision
+    iconBg: "#fff",
+    date: "Apr 2022 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on developing OCR technology to convert images into editable and searchable text.",
+      "Implemented text detection, character recognition, and image processing techniques.",
+      "Enhanced skills in computer vision, automation, and image processing libraries.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "IoT Project - Smart Farming Stick",
+    company_name: "Academic Project",
+    icon: sfs,// Replace with an IoT/project icon
+    iconBg: "#000",
+    date: "2021 - 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "Ivy - Comptech",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed an IoT-based Smart Farming Stick to optimize agriculture activities.",
+      "Implemented sensor integrations for soil moisture, temperature, and humidity.",
+      "Utilized Arduino, sensors, and IoT protocols to build the project.",
+      "Presented the solution in academic showcases and received positive feedback.",
     ],
   },
 ];
