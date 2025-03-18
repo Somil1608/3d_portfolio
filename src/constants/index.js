@@ -22,7 +22,7 @@ import {
   carrent,
   webpage,
   sfs,
-  threejs,
+  threejs,live
 } from "../assets";
 
 export const navLinks = [
@@ -37,13 +37,14 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
   {
     title: "Web Developer",
     icon: web,
+    link: "https://your-link.com",
   },
   {
     title: "React Native Developer",
@@ -172,28 +173,33 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Somil proved me wrong.",
+    name: "Anuj Tanwar",
+    designation: "Manager",
+    company: "KPMG",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHgot4sLk5J1A/profile-displayphoto-shrink_800_800/B4DZQV.1XdGgAc-/0/1735535582598?e=1747872000&v=beta&t=hCcCcQSWS4DcRXOM5E5Iv1m3nSap5Miijo2GxjNs9Q8",
+    link: "https://www.linkedin.com/in/tanweranuj/"
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "After Somil optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "AAYUSH ARORA",
+    designation: "Cloud Solutions Architect",
+    company: "Google",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQErVdHlq_iuHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1607789277350?e=1747872000&v=beta&t=UnfWL5H3oGNNi47LLo4zs2tMye37W0EdRdlfT8Ut3Do",
+    link: "https://www.linkedin.com/in/aayush-arora-019557102/"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Somil does.",
+    name: "Jaswinder Kaur",
+    designation: "Agile Lead",
+    company: "Upstox",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQEurReONyV97Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517746019789?e=1747872000&v=beta&t=7mRXV-Ldvfb7_ZpJccFP7TMqdQVllSZbMN55f_EPz5o",
+    link: "https://www.linkedin.com/in/jassi10/"
   },
+  
+  
 ];
 
 const projects = [
@@ -217,6 +223,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    demo_link: "https://your-demo-link.com",
   },
   {
     name: "Web Page Portfolio",
@@ -237,7 +244,8 @@ const projects = [
       },
     ],
     image: webpage,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Somil1608/portfolio",
+    demo_link: "https://portfolio-git-main-somil1608s-projects.vercel.app/",
   },
   {
     name: "Smart Farming Stick",
@@ -258,7 +266,8 @@ const projects = [
       },
     ],
     image: sfs,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Somil1608/AP040-Smart_Farming_Stick",
+    demo_link: "https://www.innovatefpga.com/cgi-bin/innovate/teams.pl?Id=AP040",
   },
 ];
 

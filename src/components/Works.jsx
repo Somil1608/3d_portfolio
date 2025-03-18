@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demo_link, 
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -26,7 +27,8 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div onClick={() => window.open(demo_link, "_blank")}
+        className='relative w-full h-[230px]  cursor-pointer'>
           <img
             src={image}
             alt='project_image'
