@@ -1,26 +1,17 @@
+# 🌐 Somil Kumar's 3D Portfolio Website 🚀
 
-```markdown
-# 🌐 3D Portfolio Website 🚀
-
-Welcome to my interactive 3D portfolio website! This project showcases my skills in web development, 3D rendering, animations, and responsive design, all bundled together to provide an engaging and visually appealing personal portfolio.
+Welcome to my interactive 3D portfolio website! This project showcases my skills in software development, 3D rendering, and responsive web design. It combines creative visuals with technical prowess to present my projects, experience, and contact options in an engaging manner.
 
 ---
 
 ## 📌 Features
 
-- 🎨 **3D Canvas Integration** using Three.js (React Three Fiber)
-- 💻 **Responsive Design** optimized for all screen sizes
-- 🔥 **Framer Motion Animations** for smooth transitions
-- 📬 **Fully Functional Contact Form** powered by EmailJS (no backend required)
+- 🎨 **3D Canvas Integration** powered by Three.js (React Three Fiber)
+- 💻 **Responsive Design** for all screen sizes
+- 🔥 **Smooth Animations** with Framer Motion
+- 📩 **Functional Contact Form** using EmailJS (no backend required)
 - 🌟 **Modern UI/UX** with Tailwind CSS
-- 🌍 Earth 3D model & interactive visual elements
-
----
-
-## 🚀 Live Demo
-
-👉 [Visit the Live Website](#)  
-*(Replace with actual deployed link if hosted)*
+- 🌍 Interactive Earth model & creative visual elements
 
 ---
 
@@ -28,8 +19,8 @@ Welcome to my interactive 3D portfolio website! This project showcases my skills
 
 | Technology        | Usage                                    |
 |-------------------|------------------------------------------|
-| **React.js**      | Frontend library                         |
-| **Vite**          | Fast build tool and dev server           |
+| **React.js**      | Frontend framework                       |
+| **Vite**          | Build tool and development server        |
 | **Three.js (React Three Fiber)** | 3D rendering framework    |
 | **Framer Motion** | Animations                               |
 | **Tailwind CSS**  | Styling framework                        |
@@ -39,7 +30,8 @@ Welcome to my interactive 3D portfolio website! This project showcases my skills
 
 ## 📂 Project Structure Overview
 
-```
+```bash
+3D_Portfolio/
 ├── public/
 │   └── assets/               # Static assets
 ├── src/
@@ -55,22 +47,22 @@ Welcome to my interactive 3D portfolio website! This project showcases my skills
 
 ---
 
-## 📬 Contact Form Functionality
+## 📩 Contact Form Functionality
 
-- Users can fill in their **Name**, **Email**, and **Message**.
-- Emails are sent directly to my inbox using **EmailJS** without needing a backend server.
-- Form validation ensures no empty fields.
-- Auto-reply configured for professional acknowledgment.
+- Users fill in **Name**, **Email**, and **Message** fields.
+- The form sends messages directly to my inbox via **EmailJS** (without backend).
+- Validates fields before sending.
+- Auto-reply configured to confirm receipt to users.
 
 ---
 
-## 🖥️ Getting Started Locally
+## 🕹️ Getting Started Locally
 
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/your-username/3D_portfolio.git
-cd 3D_portfolio
+git clone https://github.com/Somil1608/3D_Portfolio.git
+cd 3D_Portfolio
 ```
 
 2. **Install dependencies:**
@@ -83,7 +75,7 @@ npm install
 
 Create a `.env` file:
 
-```
+```bash
 VITE_APP_EMAILJS_SERVICE_ID=your_service_id
 VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
@@ -99,40 +91,39 @@ npm run dev
 
 ## 📄 Documentation
 
-- **Contact Form Full Explanation & Integration Steps:**  
-  Available in `/docs/Contact_Form_Documentation.md` (or insert link if external)
+- **Contact Form Full Documentation:** Available in `/docs/Contact_Form_Documentation.md`
 
 ---
 
-## ✨ Future Improvements
+## 🌟 Future Enhancements
 
-- Add ReCAPTCHA to prevent spam
-- Improve accessibility
-- Add multi-language support
-- Deploy using Vercel/Netlify
+- Integrate ReCAPTCHA to prevent spam
+- Add dark/light theme toggle
+- Deploy using Vercel or Netlify
+- Include multi-language support
 
 ---
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Somil (Ashok Kumar)** – a passionate developer exploring creative ways to blend web development and 3D technology.  
-Feel free to connect:
+Hi, I'm **Somil Kumar**, a passionate software engineer currently working at Ivy Comptech with experience in Java, React.js, Spring, and database technologies. My aim is to creatively blend web development and 3D rendering to produce dynamic and impactful user experiences.
+
+**Contact Me:**
 
 - 📧 Email: kg.somil@gmail.com
-- 🌐 [LinkedIn](#)
-- 🌐 [GitHub](#)
+- 🔗 LinkedIn: [linkedin.com/in/somil1608](https://linkedin.com/in/somil1608)
+- 🔗 GitHub: [github.com/Somil1608](https://github.com/Somil1608)
 
 ---
 
 ## 📃 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ---
 
 ## 📢 Acknowledgments
 
-- Design inspired by modern creative portfolio layouts.
-- Special thanks to the React Three Fiber and EmailJS communities.
+- Thanks to the communities of React Three Fiber, EmailJS, and Tailwind CSS for providing amazing tools.
+- Design inspiration taken from modern creative developer portfolios.
 
----

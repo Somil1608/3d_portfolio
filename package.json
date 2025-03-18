@@ -1,8 +1,13 @@
 {
-  "name": "3dfolio",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "3d-portfolio",
+  "version": "1.0.0",
+  "description": "Somil Kumar's Interactive 3D Developer Portfolio",
+  "author": "Somil Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Somil1608/3D_Portfolio"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
