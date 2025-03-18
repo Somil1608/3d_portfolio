@@ -31,15 +31,22 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill out all fields.");
+      setLoading(false);
+      return;
+    }
+  
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Somil - Portfolio",
+          //to_name: "Somil - 3D_Portfolio",
           from_email: form.email,
-          to_email: "kg.somil@gmail.com",
+          //to_email: "mahiparmar1799@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
