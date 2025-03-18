@@ -1,10 +1,3 @@
-Absolutely! **Customizing the README** is a great idea—it reflects professionalism and gives anyone viewing your project a clear understanding of what it’s about, especially if you're showcasing it in your portfolio or on GitHub.
-
-### 🟢 **Let’s create a clean, professional, and personalized README for your 3D Portfolio project!**
-
----
-
-## 📄 **Customized README Template for Your Project:**
 
 ```markdown
 # 🌐 3D Portfolio Website 🚀
@@ -143,7 +136,3 @@ This project is licensed under the [MIT License](LICENSE).
 - Special thanks to the React Three Fiber and EmailJS communities.
 
 ---
-
----
-
-## ⭐ Would you like me to package this into your project’s actual `README.md` and send it back to you for direct use?
