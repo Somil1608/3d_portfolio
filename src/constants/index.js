@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
+  advportfolio,
   webpage,
   sfs,
   threejs,live
@@ -47,7 +48,7 @@ const services = [
     link: "https://your-link.com",
   },
   {
-    title: "React Native Developer",
+    title: "Electronics Engineer",
     icon: mobile,
   },
   {
@@ -208,26 +209,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Website ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a professional portfolio website built for Advocate Ashok Kumar Sirsi, who is a leading legal professional and General Secretary of the Haryana Adhivakta Parishad. The website elegantly presents his expertise, leadership contributions, notable cases, achievements.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "EmailJs",
+        color: "orange-text-gradient",
+      },
+      
     ],
-    image: carrent,
+    image: advportfolio,
     source_code_link: "https://github.com/",
-    demo_link: "https://your-demo-link.com",
+    demo_link: "https://advashokkumar.vercel.app/",
   },
   {
     name: "Web Page Portfolio",
@@ -239,13 +245,18 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "EmailJs",
+        color: "orange-text-gradient",
+      },
+      
     ],
     image: webpage,
     source_code_link: "https://github.com/Somil1608/portfolio",
@@ -261,11 +272,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "FPGA-DE10",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sensors",
         color: "pink-text-gradient",
       },
     ],

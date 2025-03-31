@@ -26,8 +26,9 @@ import meta from "./company/ivy-logo.png";
 import shopify from "./company/entainlogo.jpeg";
 import starbucks from "./company/elogo.png";
 import tesla from "./company/sf_logo.jpeg";
-
 import carrent from "./carrent.png";
+
+import advportfolio from "./advportfolio.png";
 import webpage from "./webpage.png";
 import sfs from "./sfs.jpg";
 
@@ -58,6 +59,7 @@ export {
   starbucks,
   tesla,
   carrent,
+  advportfolio,
   webpage,
   sfs,
   live
