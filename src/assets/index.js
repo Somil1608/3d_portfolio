@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 
 import advportfolio from "./advportfolio.png";
 import webpage from "./webpage.png";
+import mahimawebpage from "./mahimawebpage.png";
+
 import sfs from "./sfs.jpg";
 
 export {
@@ -61,6 +63,7 @@ export {
   carrent,
   advportfolio,
   webpage,
+  mahimawebpage,
   sfs,
   live
 };

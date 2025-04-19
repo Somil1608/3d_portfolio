@@ -22,18 +22,23 @@ import {
   carrent,
   advportfolio,
   webpage,
+  mahimawebpage,
   sfs,
   threejs,live
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
+    id: "technologies",
     title: "About",
   },
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -209,9 +214,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Portfolio Website ",
+    name: "Advocate Portfolio Website | Legal Profile ",
     description:
-      "This is a professional portfolio website built for Advocate Ashok Kumar Sirsi, who is a leading legal professional and General Secretary of the Haryana Adhivakta Parishad. The website elegantly presents his expertise, leadership contributions, notable cases, achievements.",
+      "Developed a professional and premium portfolio website for a district court advocate, showcasing expertise in civil, criminal, and family law. Implemented features like animated case timelines, detailed leadership highlights, and an integrated contact form using EmailJS. The site was built using React, Tailwind CSS, and Vite, with a strong focus on legal aesthetics, clean UI/UX, and responsive design.",
     tags: [
       {
         name: "react",
@@ -232,13 +237,40 @@ const projects = [
       
     ],
     image: advportfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Somil1608/advocate-ashok-kumar-portfolio",
     demo_link: "https://advashokkumar.vercel.app/",
   },
   {
-    name: "Web Page Portfolio",
+    name: "HR Portfolio Website | Personal Brand",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed and developed a responsive personal branding website for an HR professional to present their career journey, expertise, and key achievements. Used modern design principles with smooth scroll, clean layouts, and a focus on human-centric branding. Built with React, Tailwind CSS, and Vite, the site includes a structured resume section, contact form, and interactive components.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "EmailJs",
+        color: "orange-text-gradient",
+      },
+      
+    ],
+    image: mahimawebpage,
+    source_code_link: "https://github.com/Somil1608/Mahima-portfolio",
+    demo_link: "https://mahimahr.vercel.app/",
+  },
+  {
+    name: "Freelancer Portfolio Website | Minimal",
+    description:
+      "Created a clean, minimalistic portfolio website for a freelance client to highlight their skills and services. Focused on user-friendly navigation, responsive design, and smooth transitions. Technologies used include React, Tailwind CSS, and Vite. Features include a testimonial section, project showcase, and a functional contact form via EmailJS..",
     tags: [
       {
         name: "react",
@@ -262,6 +294,7 @@ const projects = [
     source_code_link: "https://github.com/Somil1608/portfolio",
     demo_link: "https://portfolio-git-main-somil1608s-projects.vercel.app/",
   },
+
   {
     name: "Smart Farming Stick",
     description:
