@@ -29,7 +29,7 @@ import {
 
 export const navLinks = [
   {
-    id: "technologies",
+    id: "about",
     title: "About",
   },
   {
@@ -43,8 +43,13 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   }
 ];
+
 
 const services = [
   {
