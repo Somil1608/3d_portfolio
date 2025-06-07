@@ -18,10 +18,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Somil</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+         <p className={`${styles.heroSubText} mt-4 text-white-100 leading-relaxed`}>
+    Backend Developer specializing in Java & Spring Boot, <br className="sm:block hidden" />
+    with frontend skills in React.js and a passion for AI-driven solutions.
+  </p>
         </div>
       </div>
 
